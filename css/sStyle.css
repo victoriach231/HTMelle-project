@@ -1,0 +1,25 @@
+.heading {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1.heading {
+    font-size: 70px;
+    background-color: purple;
+    border: 2px solid black;
+    border-radius: 30px;
+    
+}
+
+.shopButton {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.shopButton:hover {
+    background-color: lightgreen;
+}
