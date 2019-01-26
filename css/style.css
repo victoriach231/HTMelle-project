@@ -38,6 +38,19 @@
     background-color: lightgreen;
 }
 
+.saleButton {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.saleButton: hover {
+    background-color: lightgreen;
+}
+
 .content {
   padding-top: 40px;
 }
