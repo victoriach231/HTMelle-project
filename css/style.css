@@ -1,15 +1,28 @@
+/*
 .heading {
     display: flex;
     justify-content: space-around;
 }
+*/
 
-h1.heading {
+header > nav {
+  position: fixed;
+  background-color: purple;
+  width: 100%;
+  top: 0;
+  right: 0;
+    
+}
+
+
+/*h1.heading {
     font-size: 70px;
     background-color: purple;
     border: 2px solid black;
     border-radius: 30px;
     
-}
+} */
+
 
 .shopButton {
     background-color: green;
@@ -22,4 +35,8 @@ h1.heading {
 }
 .shopButton:hover {
     background-color: lightgreen;
+}
+
+.content {
+  padding-top: 40px;
 }
