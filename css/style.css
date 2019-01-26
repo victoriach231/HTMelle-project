@@ -54,3 +54,8 @@ header {
 body {
     font-size: 10px;
 }
+
+.image {
+  display: flex;
+  justify-content: space-between;
+}
