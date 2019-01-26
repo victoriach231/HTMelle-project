@@ -47,7 +47,7 @@
     font-size: 16px;
     cursor: pointer;
 }
-.saleButton: hover {
+.saleButton:hover {
     background-color: lightgreen;
 }
 
