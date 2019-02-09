@@ -11,7 +11,7 @@ heading {
 } 
 
 body {
-    background-image: url("https://c1.staticflickr.com/4/3108/4562677552_20f1fda8f2_z.jpg");
+    background-image: url("https://www.xmple.com/wallpaper/spots-blue-dots-white-polka-1920x1080-c2-add8e6-ffffff-l2-22-59-a-195-f-3.svg");
     background-repeat: no-repeat;
     background-size: cover;
     font-size: 15px;
@@ -39,6 +39,18 @@ body {
     background-color: lightgreen;
 }
 
+.shopButtonDrop {
+    position: relative;
+    display: inline-block;
+}
+
+.shopButtonDrop-content {
+    display: none;
+    position: absolute;
+    background-color: orange;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
 .saleButton {
     background-color: green;
     border: none;
