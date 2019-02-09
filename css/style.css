@@ -13,6 +13,8 @@ heading {
 body {
     background-image: url("https://c1.staticflickr.com/4/3108/4562677552_20f1fda8f2_z.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 15px;
 }
 
 .nav {
@@ -67,9 +69,6 @@ body {
   padding-top: 40px;
 }
 
-body {
-    font-size: 15px;
-}
 
 .image {
   display: flex;
