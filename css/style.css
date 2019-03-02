@@ -7,14 +7,11 @@ heading {
     border: 2px solid black;
     border-radius: 30px;
     position: fixed;
-    
+    size: auto;
 } 
 
 body {
-    background-image: url("https://www.publicdomainpictures.net/pictures/60000/nahled/geometric-pattern-background-blue.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 15px;
+    background-color: rgb(255, 230, 234);
 }
 
 .nav {
@@ -39,6 +36,7 @@ body {
     background-color: lightgreen;
 }
 
+
 .shopButtonDrop {
     position: relative;
     display: inline-block;
@@ -58,10 +56,13 @@ body {
   display: block;
 }
 
-.show {display:block;}
+#myDropdown {
+    display: none;
+}
 
-
-.shopButtonDrop-content a:hover {background-color: blue}
+#myDropdown.show {
+    display: block;
+}
 
 .saleButton {
     background-color: green;
