@@ -9,8 +9,9 @@ heading {
 } 
 
 body {
-    background-color: rgb(255, 230, 234);
+    background-image: url("https://www.publicdomainpictures.net/pictures/40000/nahled/pink-check-background-pattern.jpg"); 
 }
+
 
 .shopButton {
     background-color: green;
@@ -47,18 +48,27 @@ body {
 
 #myDropdown {
     display: none;
+    flex-direction: column;
+    
 }
 
 #myDropdown.show {
-    display: block;
+    display: flex;
 }
 
+#myDropdown a {
+    background-color: pink;
+    text-decoration: none;
+    
+}
 
 .homeImage {
-    display: flex;
     padding-top: 50px;
-    height: 500px;
-    width: 100%;
+    text-align: CENTER;
+}
+
+.homeImage img {
+    max-width: 50%;
 }
 
 
