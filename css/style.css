@@ -5,8 +5,6 @@ heading {
     font-size: 70px;
     background-color: white;
     border: 1px solid black;
-    position: fixed;
-    size: auto;
 } 
 
 body {
@@ -55,20 +53,18 @@ body {
 }
 
 
-
-.contactB {
-    width: 300px;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 150%;
-    color: #fff;
-    border-radius: 10px;
+.homeImage {
+    padding-top: 400px;
 }
 
 
-
-.content {
-  padding-top: 400px;
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: blue;
+    }
+    
+  .container {
+   display: grid;
+   align-content: center;
+  }
 }
-
-
