@@ -74,11 +74,6 @@ body {
 
 @media only screen and (max-width: 1000px) {
     body {
-        background-color: blue;
+        background-color: pink;
     }
-    
-  .container {
-   display: grid;
-   align-content: center;
-  }
 }
